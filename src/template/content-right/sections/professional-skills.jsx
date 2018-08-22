@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Icon from '../icons/icons'
+import Icon from '../../icons/icons'
 
 class ProfessionalSkill extends Component {
 	render() {
@@ -12,9 +12,9 @@ class ProfessionalSkill extends Component {
 
 			if(tools) {
 				return tools.map( (item, index) => (
-					<div className="skill-item" key={index}>
-						<span>{item.toolName}</span>
-						<div className={"graph-rg graph-rg-"+item.toolsSkill}></div>
+					<div className="skill-item" key={ index }>
+						<span>{ item.toolName }</span>
+						<div className={ "graph-rg graph-rg-" + item.toolsSkill }></div>
 					</div>
 				))
 			}
@@ -22,7 +22,7 @@ class ProfessionalSkill extends Component {
 
 		return (
 			<section className="pro-skill">
-				<Icon text={ProfessionalTitle} bg="bg-icon-rg" icon="professional" />
+				<Icon text={ ProfessionalTitle } bg="bg-icon-rg" icon="professional" />
 				{renderRows()}
 			</section>
 		)

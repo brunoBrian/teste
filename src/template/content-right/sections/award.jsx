@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Icon from '../icons/icons'
+import Icon from '../../icons/icons'
 
 class Experience extends Component {
 	render() {
@@ -15,13 +15,13 @@ class Experience extends Component {
 		
 		return (
 			<section className="award">
-				<Icon text={title} bg="bg-icon-rg" icon="award"/>
+				<Icon text={ title } bg="bg-icon-rg" icon="award" />
 				<div className="award-item">
-					<span className="date">{month} {year}</span>
+					<span className="date">{ month } { year }</span>
 					<div className="content-award">
-						<h2>{projectName}</h2>
-						<span className="university">{awardName}, {city}.</span>
-						<p>{description}</p>
+						<h2>{ projectName }</h2>
+						<span className="university">{ awardName }, { city }.</span>
+						<p>{ description }</p>
 					</div>
 				</div>
 			</section>

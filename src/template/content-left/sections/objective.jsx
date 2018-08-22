@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Icon from '../icons/icons'
+import Icon from '../../icons/icons'
 
 class Objective extends Component {
 	render() {
@@ -10,8 +10,8 @@ class Objective extends Component {
 
 		return (
 			<section className="objective">
-				<Icon text={objectiveTitle} icon="objective"/>
-				<p>{objectiveDescription}</p>
+				<Icon text={ objectiveTitle } icon="objective"/>
+				<p>{ objectiveDescription }</p>
 			</section>
 		)
 	}

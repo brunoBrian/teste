@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Icon from '../icons/icons'
+import Icon from '../../icons/icons'
 
 class Main extends Component {
 	render() {
@@ -11,10 +11,10 @@ class Main extends Component {
 		return (
 			<section className="main">
 				<figure>
-					<img src={mainImage} alt="Foto de Perfil" />
+					<img src={ mainImage } alt="Foto de Perfil" />
 				</figure>
-				<h1>{mainName}</h1>
-				<h2>{mainProfession}</h2>
+				<h1>{ mainName }</h1>
+				<h2>{ mainProfession }</h2>
 			</section>
 		)
 	}

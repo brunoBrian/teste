@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Icon from '../icons/icons'
+import Icon from '../../icons/icons'
 
 class Education extends Component {
 	render() {
@@ -12,12 +12,12 @@ class Education extends Component {
 
 			if(university) {
 				return university.map( (item, index) => (
-					<div className="education-item" key={index}>
-						<span className="date">{item.month} {item.year}</span>
+					<div className="education-item" key={ index }>
+						<span className="date">{ item.month } { item.year }</span>
 						<div className="content-education">
-							<h2>{item.courseName}</h2>
-							<span className="university">{item.universityName}, {item.universityCity}</span>
-							<p>{item.description}</p>
+							<h2>{ item.courseName }</h2>
+							<span className="university">{ item.universityName }, { item.universityCity }</span>
+							<p>{ item.description }</p>
 						</div>
 					</div>
 				))
@@ -26,7 +26,7 @@ class Education extends Component {
 
 		return (
 			<section className="education">
-				<Icon text="Education" bg="bg-icon-rg" icon="education" />
+				<Icon text={EducationTitle} bg="bg-icon-rg" icon="education" />
 				{renderRows()}
 			</section>
 		)
