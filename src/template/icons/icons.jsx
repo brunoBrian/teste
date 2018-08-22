@@ -2,7 +2,7 @@ import React from 'react'
 
 export default props => {
 
-	let iconDir = `images/${props.icon}.png`
+	const iconDir = `images/${props.icon}.png`
 
 	return (
 		<div className="box-title">

@@ -16,10 +16,10 @@ class App extends Component {
 
 	componentDidMount() {
 	    axios.get(`${URL}`)
-	        .then(res => {
-	            this.setState({ ...this.state, data: res.data });
-	        })
-	 }
+        .then(res => {
+            this.setState({ ...this.state, data: res.data });
+        })
+	}
 
 	render() {
 		return (

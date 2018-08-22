@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 import Icon from '../icons/icons'
 
 class ProfessionalSkill extends Component {
-
 	render() {
-
 		const data = this.props.data || []
 		const ProfessionalTitle = data.title
 

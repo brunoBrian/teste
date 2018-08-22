@@ -3,15 +3,12 @@ import React, { Component } from 'react'
 import Icon from '../icons/icons'
 
 class Experience extends Component {
-	
 	render() {
-
 		const data = this.props.data || []
 		const experienceTitle = data.title
 		
 		const renderRows = () => {
 			const company = data.company
-
 			if(company) {
 				return company.map( (item, index) => (
 					<div className="experience-item" key={index}>

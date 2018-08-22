@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 import Icon from '../icons/icons'
 
 class Experience extends Component {
-	
 	render() {
-
 		const data = this.props.data || []
 		const title = data.title
 		const month = data.month

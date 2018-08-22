@@ -9,6 +9,7 @@ module.exports = {
 	},
 	devServer: {
 		port: 8080,
+		open: true,
 		contentBase: './public'
 	},
 	resolve: { // Quando for exportar, deve reconhecer todas as extensões abaixo

@@ -6,7 +6,6 @@ import ProfessionalSkills from './professional-skills'
 import Award from './award'
 
 export default props => {
-
 	const data = props.data || []
 
 	return (

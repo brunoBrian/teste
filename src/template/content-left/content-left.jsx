@@ -7,7 +7,6 @@ import PersonalSkill from './personal-skill'
 import Contact from './contact'
 
 export default props => {
-
 	const data = props.data || []
 
 	return (
@@ -18,7 +17,6 @@ export default props => {
 				<Objective data={data.objective} />
 				<PersonalSkill data={data.personalSkill} />
 				<Contact data={data.contactMe} />
-				<p></p>
 			</div>
 		</div>
 	)
